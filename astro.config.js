@@ -4,5 +4,6 @@ import mdx from '@astrojs/mdx';
 
 export default defineConfig({
   integrations: [tailwind(), mdx()],
-  site: 'https://foxyverbs.com', // Cambia esto por tu dominio
+  site: 'https://elihat2022.github.io', 
+  base: "astro_foxyverbs"// Cambia esto por tu dominio
 });
