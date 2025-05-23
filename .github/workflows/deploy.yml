@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions: # Add this section
+      contents: write # Allow write access to repository contents
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
