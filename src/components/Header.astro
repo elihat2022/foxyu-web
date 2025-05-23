@@ -1,11 +1,11 @@
 <header class="bg-primary text-white py-4">
   <div class="container mx-auto px-4 flex justify-between items-center">
-    <a href="/" class="text-2xl font-bold">FoxyVerbs</a>
+    <a href={import.meta.env.BASE_URL} class="text-2xl font-bold">FoxyVerbs</a>
     <nav>
       <ul class="flex gap-6">
-        <li><a href="/" class="hover:underline">Inicio</a></li>
-        <li><a href="/privacy-policy" class="hover:underline">Política de Privacidad</a></li>
-        <li><a href="/terms-conditions" class="hover:underline">Términos y Condiciones</a></li>
+        <li><a href={import.meta.env.BASE_URL} class="hover:underline">Inicio</a></li>
+        <li><a href={import.meta.env.BASE_URL + "privacy-policy"} class="hover:underline">Política de Privacidad</a></li>
+        <li><a href={import.meta.env.BASE_URL + "terms-conditions"} class="hover:underline">Términos y Condiciones</a></li>
       </ul>
     </nav>
   </div>
