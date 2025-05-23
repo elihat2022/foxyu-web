@@ -1,0 +1,22 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FoxyVerbs: Aprende inglés con ejercicios interactivos, chat con IA y un ranking global. Descarga la app hoy." />
+    <meta name="keywords" content="FoxyVerbs, aprender inglés, ejercicios de verbos, pronunciación, chat IA" />
+    <meta name="author" content="FoxyVerbs" />
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body class="font-sans">
+    <slot />
+  </body>
+</html>
