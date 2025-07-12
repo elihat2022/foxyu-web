@@ -30,7 +30,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # If your repository name is 'astro_foxyverbs' and your GitHub username is 'elihat2022',
-          # the base path in astro.config.js should be '/astro_foxyverbs'.
+          # If your repository name is 'foxyu-web' and your GitHub username is 'elihat2022',
+          # the base path in astro.config.js should be '/foxyu-web'.
           # The cname option is only needed if you are using a custom domain.
           # cname: your-custom-domain.com
