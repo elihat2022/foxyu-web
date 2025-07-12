@@ -3,48 +3,88 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 ---
-<Layout title="FoxyVerbs - Aprende Inglés con Diversión">
+<Layout title="FoxyU - Aprende Jugando, Triunfa Estudiando">
   <Header />
   <main>
     <!-- Hero Section -->
     <section class="bg-primary text-white py-20 text-center">
       <div class="container mx-auto px-4">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">FoxyVerbs</h1>
-        <p class="text-xl mb-6">¡Aprende inglés con ejercicios interactivos, chat con IA y un ranking global!</p>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">FoxyU</h1>
+        <p class="text-xl mb-6 font-semibold text-secondary">Aprende jugando, triunfa estudiando</p>
+        <p class="text-lg mb-8">La app educativa que convierte el estudio en una experiencia divertida y efectiva. Prepárate para el ICFES con gamificación real y contenido alineado al currículo colombiano.</p>
         <div class="flex justify-center gap-4">
-          <a href="https://www.apple.com/app-store/" class="bg-secondary text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400">Descarga en App Store</a>
-          <a href="https://play.google.com/store" class="bg-secondary text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400">Descarga en Google Play</a>
+          <a href="https://www.apple.com/app-store/" class="bg-secondary text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-colors">Descarga en App Store</a>
+          <a href="https://play.google.com/store" class="bg-secondary text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-colors">Descarga en Google Play</a>
         </div>
       </div>
     </section>
 
-    <!-- Características -->
+    <!-- Características Principales -->
     <section class="py-16">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-12">Por qué elegir FoxyVerbs</h2>
+        <h2 class="text-3xl font-bold text-center mb-12">¿Por qué elegir FoxyU?</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mb-2">Ejercicios de Verbos y Pronunciación</h3>
-            <p>Mejora tu inglés con ejercicios interactivos y feedback personalizado mediante IA.</p>
+          <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <div class="text-4xl mb-4">🎮</div>
+            <h3 class="text-xl font-semibold mb-2">Gamificación Real</h3>
+            <p>Sistema de gemas, logros y rankings dinámicos. Compite con estudiantes de toda Colombia y haz del estudio una experiencia emocionante.</p>
           </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mb-2">Chat con IA</h3>
-            <p>Practica conversaciones en inglés con nuestro chat impulsado por ChatGPT.</p>
+          <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <div class="text-4xl mb-4">📚</div>
+            <h3 class="text-xl font-semibold mb-2">Contenido Alineado</h3>
+            <p>+1,600 preguntas curadas basadas en estándares educativos colombianos. Preparación específica para Pruebas Saber 11°.</p>
           </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mb-2">Ranking Global</h3>
-            <p>Compite con usuarios de todo el mundo y muestra tus habilidades en nuestro ranking público.</p>
+          <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <div class="text-4xl mb-4">🎯</div>
+            <h3 class="text-xl font-semibold mb-2">Aprendizaje Adaptativo</h3>
+            <p>Práctica personalizada según tus fortalezas y debilidades. Analytics detallados para medir tu progreso.</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Materias y Contenido -->
+    <section class="bg-gray-50 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">5 Materias Principales</h2>
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="text-center p-4 bg-white rounded-lg shadow">
+            <div class="text-3xl mb-2">📐</div>
+            <h3 class="font-semibold">Matemáticas</h3>
+          </div>
+          <div class="text-center p-4 bg-white rounded-lg shadow">
+            <div class="text-3xl mb-2">🔬</div>
+            <h3 class="font-semibold">Ciencias</h3>
+          </div>
+          <div class="text-center p-4 bg-white rounded-lg shadow">
+            <div class="text-3xl mb-2">🌍</div>
+            <h3 class="font-semibold">Sociales</h3>
+          </div>
+          <div class="text-center p-4 bg-white rounded-lg shadow">
+            <div class="text-3xl mb-2">📖</div>
+            <h3 class="font-semibold">Lectura Crítica</h3>
+          </div>
+          <div class="text-center p-4 bg-white rounded-lg shadow">
+            <div class="text-3xl mb-2">🇺🇸</div>
+            <h3 class="font-semibold">Inglés</h3>
+          </div>
+        </div>
+        <div class="text-center mt-8">
+          <p class="text-lg text-gray-600">Formato ICFES • Explicaciones detalladas • Soporte LaTeX para fórmulas</p>
         </div>
       </div>
     </section>
 
     <!-- CTA -->
-    <section class="bg-gray-100 py-16 text-center">
+    <section class="bg-gradient-to-r from-primary to-blue-600 text-white py-16 text-center">
       <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold mb-4">¡Empieza hoy!</h2>
-        <p class="text-lg mb-6">Prueba FoxyVerbs gratis durante 7 días y desbloquea todas las funciones premium.</p>
-        <a href="#download" class="bg-secondary text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400">Descargar ahora</a>
+        <h2 class="text-3xl font-bold mb-4">¡Empieza a estudiar hoy!</h2>
+        <p class="text-lg mb-6">Únete a miles de estudiantes colombianos que ya están mejorando sus resultados académicos con FoxyU.</p>
+        <div class="mb-6">
+          <span class="inline-block bg-secondary text-black px-4 py-2 rounded-full font-semibold mr-4">✨ Freemium</span>
+          <span class="inline-block bg-white text-primary px-4 py-2 rounded-full font-semibold">🎯 Preparación ICFES</span>
+        </div>
+        <a href="#download" class="bg-secondary text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-colors">Descargar ahora gratis</a>
       </div>
     </section>
   </main>

@@ -2,16 +2,16 @@
 title: Términos y Condiciones de FoxyVerbs
 ---
 
-**Última actualización:** 23 de mayo de 2025
+**Última actualización:** 12 de julio de 2025
 
 ## Introducción
-Estos Términos y Condiciones ("Términos") rigen el uso de la aplicación móvil FoxyVerbs ("la App"), desarrollada por nosotros ("FoxyVerbs", "nosotros") desde Colombia. Al descargar, instalar o usar la App, usted ("el usuario", "usted") acepta cumplir con estos Términos. Si no está de acuerdo, no utilice la App. Recomendamos leer también nuestra Política de Privacidad, disponible en la App.
+Estos Términos y Condiciones ("Términos") rigen el uso de la aplicación móvil FoxyU ("la App"), desarrollada por nosotros ("FoxyU", "nosotros") desde Colombia. Al descargar, instalar o usar la App, usted ("el usuario", "usted") acepta cumplir con estos Términos. Si no está de acuerdo, no utilice la App. Recomendamos leer también nuestra Política de Privacidad, disponible en la App.
 
 ## 1. Definiciones
-- **App**: FoxyVerbs, una aplicación móvil desarrollada con Flutter que ofrece ejercicios de verbos y pronunciación, chat con inteligencia artificial y un ranking público.
+- **App**: FoxyU, una aplicación móvil desarrollada con Flutter que ofrece ejercicios de tests para preuniversitarios, chat con inteligencia artificial y un ranking público.
 - **Usuario**: Cualquier persona que use la App.
 - **Suscripción**: Plan de pago mensual o anual para acceder a funciones premium de la App, gestionado por la App Store (Apple) o Google Play Store.
-- **Contenido**: Todo el material de la App, incluyendo ejercicios, interfaz, respuestas generadas por el chat y evaluaciones de pronunciación.
+- **Contenido**: Todo el material de la App, incluyendo ejercicios de tests, interfaz, respuestas generadas por el chat y puntajes.
 
 ## 2. Uso de la App
 La App está destinada a usuarios mayores de 13 años. Para usar la App, debe:
@@ -31,29 +31,29 @@ La App ofrece suscripciones mensuales o anuales para acceder a funciones premium
 - No almacenamos datos de pago, como números de tarjetas de crédito.
 
 ## 4. Funcionalidades de la App
-- **Chat con inteligencia artificial**: La App utiliza la API de ChatGPT (OpenAI) para procesar mensajes. Los mensajes enviados están sujetos a la política de privacidad de OpenAI ([https://openai.com/privacy](https://openai.com/privacy)).
-- **Evaluación de pronunciación**: La App utiliza servicios de Microsoft Azure para evaluar ejercicios de pronunciación. Los datos de audio enviados están sujetos a la política de privacidad de Microsoft ([https://www.microsoft.com/en-us/privacystatement](https://www.microsoft.com/en-us/privacystatement)).
+- **Chat con inteligencia artificial**: La App utiliza la API de Gemini (Google) para procesar mensajes. Los mensajes enviados están sujetos a la política de privacidad de Google ([https://policies.google.com/privacy](https://policies.google.com/privacy)).
+- **Ejercicios de tests para preuniversitarios**: La App ofrece ejercicios diseñados para ayudar a los usuarios a prepararse para exámenes preuniversitarios, con puntajes que se utilizan para personalizar la experiencia (por ejemplo, recomendaciones o feedback).
 - **Ranking público**: Al usar la App, usted acepta que su nombre de usuario y puntajes totales sean visibles públicamente en el ranking. Puede solicitar excluirse contactándonos.
-- **Puntajes personales**: Los puntajes de los ejercicios de verbos y pronunciación se utilizan para personalizar su experiencia (por ejemplo, recomendaciones o feedback).
+- **Puntajes personales**: Los puntajes de los ejercicios de tests se utilizan para personalizar su experiencia (por ejemplo, recomendaciones o feedback).
 
 ## 5. Conducta del usuario
 Usted se compromete a:
 
 - No usar la App para fines ilegales o no autorizados.
 - No intentar acceder sin autorización a los servidores o sistemas de la App.
-- No enviar contenido ofensivo, inapropiado o que infrinja derechos de terceros a través del chat o los ejercicios de pronunciación.
+- No enviar contenido ofensivo, inapropiado o que infrinja derechos de terceros a través del chat.
 - No manipular los puntajes o el ranking de manera fraudulenta.
 
 Nos reservamos el derecho de suspender o eliminar cuentas que violen estos Términos.
 
 ## 6. Propiedad intelectual
-Todo el contenido de la App, incluyendo ejercicios, diseño, código y evaluaciones de pronunciación, es propiedad de FoxyVerbs o sus licenciantes. Usted no puede copiar, modificar, distribuir ni reproducir el contenido sin nuestro permiso expreso.
+Todo el contenido de la App, incluyendo ejercicios de tests, diseño, código y respuestas generadas, es propiedad de FoxyU o sus licenciantes. Usted no puede copiar, modificar, distribuir ni reproducir el contenido sin nuestro permiso expreso.
 
 ## 7. Limitación de responsabilidad
 La App se proporciona "tal cual", sin garantías de ningún tipo. No nos hacemos responsables por:
 
 - Interrupciones del servicio, errores técnicos o pérdida de datos.
-- Daños derivados del uso de la App, respuestas generadas por el chat o evaluaciones de pronunciación.
+- Daños derivados del uso de la App o respuestas generadas por el chat.
 - Problemas con las suscripciones gestionadas por Apple o Google.
 
 Nuestra responsabilidad total estará limitada al monto pagado por su suscripción, si aplica, conforme a las leyes colombianas.

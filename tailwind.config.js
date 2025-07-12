@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1D4ED8', // Azul vibrante para FoxyVerbs
-        secondary: '#FBBF24', // Amarillo para CTAs
+        primary: '#1D4ED8', // Azul vibrante para FoxyU - educación y confianza
+        secondary: '#FBBF24', // Amarillo para CTAs - energía y motivación
       },
     },
   },
